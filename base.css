@@ -70,3 +70,21 @@
         transform: translateY(0);
     }
 }
+@keyframes loader{
+    50%{
+        height: 64px;
+    }
+}
+
+.loader .load:nth-child(1){
+    background: #FF9f1a;
+    animation-delay: -0.40s;
+}
+.loader .load:nth-child(2){
+    background: #FF9f1a;
+    animation-delay: -0.20s;
+}
+.loader .load:nth-child(3){
+    background: #FF9f1a;
+    animation-delay: 0s;
+}

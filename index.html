@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="reponsive.css">
 </head>
 <body>
@@ -359,6 +360,11 @@
         </div>
         </div>
     </div>
+    <div class="loader">
+        <div class="load"></div>
+        <div class="load"></div>
+        <div class="load"></div>
+    </div>
     <script>
         menus2 = document.querySelectorAll(".menu__2")
         modal2 = document.querySelector(".modal__2")
@@ -390,6 +396,10 @@
         }
         modalClose.addEventListener("click",hideModal)
     </script>
-           
+    <script type="text/javascript">
+      setTimeout(function(){
+          $('.loader').fadeToggle();
+      },3000)
+    </script>
 </body>
 </html>
