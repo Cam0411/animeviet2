@@ -1,7 +1,7 @@
 #header
 {
     height: 65px;
-    background: #000;
+    background: #070720;
     position: fixed;
     top: 0;
     left: 0;
@@ -283,7 +283,7 @@ li.header__li-box a:hover
 #slider 
 {
     height: 700px;
-    background:#181818 ;
+    background:#0b0c2a;
     margin-top: 63px;
     display: flex;
     justify-content:center ;
@@ -364,7 +364,7 @@ li.header__li-box a:hover
 #content
 {
     height: 3000px;
-    background: #181818;
+    background: #0b0c2a;
 }
 .content__flex 
 {
