@@ -15,7 +15,7 @@
 }
 .heading__logo 
 {
-    background: -webkit-linear-gradient( left, #fff,#fff, #e63334);
+    background: -webkit-linear-gradient( left, #fff,#e63334, #e63334);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
