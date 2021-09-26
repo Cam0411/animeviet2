@@ -48,6 +48,11 @@
     padding: 22px;
     margin-top: 2px;
     position: relative;
+ 
+}
+.header__nav li a 
+{
+    color: #b7b7b7;
 }
 .header__nav li a:hover 
 {
@@ -88,7 +93,7 @@
 .header__nav > li > a 
 {
     text-decoration: none;
-    color: #ffff;
+    color: #fff;
     font-size: 15px;
     letter-spacing: 0.8px;
     font-weight: 600;
@@ -96,7 +101,7 @@
 li.header__li-box 
 {
     background: #e63334;
-
+   
 }
 li.header__li-box a:hover 
 {
