@@ -305,7 +305,7 @@ li.header__li-box a:hover
     display: flex;
     justify-content:center  ;
     align-items: center;
-    background: url("weather-2.jpg");
+    background: url("bd-item-4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -374,7 +374,7 @@ li.header__li-box a:hover
 }
 .content__login 
 {
-    padding-right: 25px;
+    padding-right: 40px;
     padding-left: 0;
     border-right: 2px solid #fff;
 }
@@ -453,9 +453,11 @@ li.header__li-box a:hover
     background: #4267b2;
     color: #ffff;
     margin-bottom: 20px;
-    width: 400px;
+    width: 310px;
     text-align: center;
     font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 .content__2-box i 
 {
