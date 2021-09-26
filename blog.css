@@ -72,6 +72,7 @@ body
     display: none;
     animation: fadeUp ease-out 0.2s;
     z-index: 1;
+    transform-origin: top left;
 }
 .header__sub-nav li 
 {
@@ -117,6 +118,19 @@ li.header__li-box a:hover
    position: relative;
    color: #ffff;
    cursor: pointer;
+}
+.header__sub-nav
+{
+    position: absolute;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #ffff;
+    width: 200px;
+    padding: 0;
+    top: 90%;
+    height: 80px;
+    display: none;
+    animation: fadeUp ease-out 0.2s;
+    transform-origin: top left;
 }
 .header__icon li:hover .menu__sub-input 
 {

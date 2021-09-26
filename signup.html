@@ -7,8 +7,8 @@
     <title>Anime</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="blog.css">
-    <link rel="stylesheet" href="reblog.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="resignup.css">
 </head>
 <body>
     <div id="header">
@@ -25,7 +25,7 @@
                    <li><a href="detail.html">Blog Details</a></li>
                </ul>
             </li>
-            <li class="header__li-box" ><a href="blog.html">Our Blog</a></li>
+            <li ><a href="blog.html">Our Blog</a></li>
             <li><a href="">Contacts</a></li>
         </ul>
         <ul class="header__icon"> 
@@ -41,52 +41,57 @@
     <div id="slider">
      <div class="grid">
          <div class="slider__box">
-             <h1 class="slider__heading">Our Blog</h1>
+             <h1 class="slider__heading">Login</h1>
              <p class="slider__about">Welcome to the official Anime blog.</p>
          </div>
      </div>
     </div>
-    <div id="content__blog">
-       <div class="grid">
-           <div class="content__blog-flex">
-              <div class="content__blog-left">
-                  <img class="img__up" src="blog-1.jpg" alt="" srcset="">
-                  <div class="content__blog-small-box">
-                      <img src="blog-4.jpg" alt="" srcset="">
-                      <img src="blog-5.jpg" alt="" srcset="">
-                  </div>
-              </div>
-              <div class="content__blog-right">
-                <div class="content__blog-small-box">
-                    <img src="blog-2.jpg" alt="" srcset="">
-                    <img src="blog-3.jpg" alt="" srcset="">
+    <div id="content">
+      <div class="grid">
+          <div class="content__flex">
+              <div class="content__login">
+                  <h1 class="content__heading">Login</h1>
+                  <form action=" "> 
+                  <div class="content__input-box">
+                    <i class="fas fa-envelope"></i>
+                     <input type="text"  class="content__txt" required placeholder="Email Address">
+                    </div>
+                    
+                     <div class="content__input-box">
+                        <i class="lock fas fa-lock"></i>
+                    <input type="password"  class="content__txt" required placeholder="Password">
                 </div>
-                <img class="img__down"  src="blog-6.jpg" alt="" srcset="">
-            </div>
-           </div>
-           <div class="content__blog-flex">
-            <div class="content__blog-left">
-                <img class="img__up" src="blog-7.jpg" alt="" srcset="">
-                <div class="content__blog-small-box">
-                    <img src="blog-10.jpg" alt="" srcset="">
-                    <img src="blog-11.jpg" alt="" srcset="">
-                </div>
-            </div>
-            <div class="content__blog-right">
-              <div class="content__blog-small-box">
-                  <img src="blog-8.jpg" alt="" srcset="">
-                  <img src="blog-9.jpg" alt="" srcset="">
+                    <div class="content__nav">
+                       <input type="submit"  class="content__login-box" value="Login Now">
+                        <li>Forgot Your Password?</li>
+                    </div>
+                </form>
               </div>
-              <img class="img__down"  src="blog-12.jpg" alt="" srcset="">
+                 <div class="content__login-2">
+                    <h1 class="content__heading-3">Dont’t Have An Account?</h1>
+                    <p class="content__login-resister"> <a href="">  register Nowv </a></p>
+                 </div>
+            
           </div>
-         </div>
-       </div>
+      
+      </div>
+    </div>
+    <div id="content__2">
+        <div class="grid">
+            <div class="content__2-flex">
+            <h1 class="content__2-heading">OR</h1>
+            <p class="content__2-box"><i class="fab fa-facebook"></i> SIGN IN WITH FACEBOOK </p>
+            <p class="content__2-box content__2-box-1"><i class="fab fa-google"></i>SIGN IN WITH GOOGLE </p>
+            <p class="content__2-box content__2-box-2"> <i class="fab fa-twitter"></i> SIGN IN WITH TWITTER </p>
+        </div>
+        </div>
     </div>
     <div id="footer">
         <div class="grid">
+        
             <div class="to__top">  <a href="#slider"><i class="fas fa-chevron-up"></i></a>  </div>
             <h1 class="footer__heading">Copyright ©2021 All right reserved </h1>
-
+         
         </div>
     </div>
     <div class="loader">
@@ -107,7 +112,7 @@
                        <li><a href="detail.html">Blog Details</a></li>
                    </ul>
                 </li>
-                <li><a href="#">Our Blog</a></li>
+                <li><a href="blog.html">Our Blog</a></li>
                 <li><a href="#">Contacts</a></li>
               </ul>
         </div>
