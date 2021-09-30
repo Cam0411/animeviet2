@@ -70,7 +70,7 @@
     width: 200px;
     padding: 0;
     top: 90%;
-    height: 80px;
+    height: 85px;
     display: none;
     animation: fadeUp ease-out 0.2s;
     transform-origin: top left;
@@ -535,4 +535,14 @@ li.header__li-box a:hover
     margin-left: 10px;
     animation: loader 1.2s infinite;
 }
-
+.modal__3 
+{
+    position: fixed;
+    background: #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    
+}
